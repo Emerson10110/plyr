@@ -5,6 +5,7 @@
     }
   ],
   "settings": {
+    // Excluir diretórios de busca
     "search.exclude": {
       "**/node_modules": true,
       "**/dist": true
@@ -18,20 +19,21 @@
     "scss.validate": false,
     "javascript.validate.enable": false,
 
-    // Formatting
+    // Formatação
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
 
-    // Trim on save
+    // Remover espaços em branco ao salvar
     "files.trimTrailingWhitespace": true,
 
-    // Special file associations
+    // Associações de arquivos especiais
     "files.associations": {
       ".eslintrc": "jsonc"
     },
 
+    // Ações de código ao salvar
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     }
